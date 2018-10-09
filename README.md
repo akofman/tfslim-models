@@ -1,3 +1,19 @@
+This repository is a copy of the slim folder from [tensorflow/models](https://github.com/tensorflow/models/tree/master/research/slim)
+
+The imports have been modified and a `setup.py` file has been added in order to make this package installable from any package manager.
+
+To install it from pip:
+```
+pip install git+https://github.com/Synchronized-TV/tfslim-models.git
+```
+
+then, as an example to test your installation:
+```
+python -c "from slimmodels.nets import cifarnet; mynet = cifarnet.cifarnet"
+``` 
+
+The following is a copy of the original README:
+
 # TensorFlow-Slim image classification model library
 
 [TF-slim](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/slim)
@@ -80,7 +96,7 @@ without raising any errors.
 
 ```
 cd $HOME/workspace/models/research/slim
-python -c "from slimmodels.nets import cifarnet; mynet = cifarnet.cifarnet"
+python -c "from nets import cifarnet; mynet = cifarnet.cifarnet"
 ```
 
 
@@ -157,7 +173,7 @@ is found below:
 
 ```python
 import tensorflow as tf
-from slimmodels.datasets import flowers
+from datasets import flowers
 
 slim = tf.contrib.slim
 
