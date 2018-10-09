@@ -80,7 +80,7 @@ without raising any errors.
 
 ```
 cd $HOME/workspace/models/research/slim
-python -c "from nets import cifarnet; mynet = cifarnet.cifarnet"
+python -c "from slimmodels.nets import cifarnet; mynet = cifarnet.cifarnet"
 ```
 
 
@@ -157,7 +157,7 @@ is found below:
 
 ```python
 import tensorflow as tf
-from datasets import flowers
+from slimmodels.datasets import flowers
 
 slim = tf.contrib.slim
 

@@ -5,7 +5,7 @@ from setuptools import setup
 
 
 setup(
-    name='slim',
+    name='slimmodels',
     version='0.1',
     include_package_data=True,
     packages=find_packages(),
