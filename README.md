@@ -4,7 +4,7 @@ The imports have been modified and a `setup.py` file has been added in order to 
 
 To install it from pip:
 ```
-pip install git+https://github.com/Synchronized-TV/tfslim-models.git
+pip install git+https://github.com/Synchronized-TV/tfslim-models@0.1
 ```
 
 then, as an example to test your installation:
